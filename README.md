@@ -10,52 +10,10 @@ User → Menu (Main Class)
      → Model (Objects)
      → Output to Console
 
-Project Structure :
----------------------
-com.bankapp
-│
-├── main
-│   └── BankApplication.java
-│
-├── model
-│   ├── User.java
-│   ├── Account.java
-│   ├── SavingsAccount.java
-│   ├── CurrentAccount.java
-│   └── Transaction.java
-│
-├── enums
-│   ├── AccountType.java
-│   └── TransactionType.java
-│
-├── repository
-│   ├── UserRepository.java
-│   └── TransactionRepository.java
-│
-├── service
-│   ├── AccountService.java
-│   ├── TransactionService.java
-│   └── impl
-│       ├── AccountServiceImpl.java
-│       └── TransactionServiceImpl.java
-│
-├── util
-│   ├── Database.java
-│   ├── ValidationUtil.java
-│   └── ReflectionUtil.java
-│
-├── exception
-│   ├── InsufficientBalanceException.java
-│   └── UserNotFoundException.java
-│
-└── functional
-    └── TaxCalculator.java
-
-
 
 Final Output of this project will be look like this .
 -----------------------------------------------------
-/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49700:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/rakshithg/Documents/Mine/BookApp/out/production/BookApp Main
+
 3 Users added successfully
 
 List of USERS are :-
